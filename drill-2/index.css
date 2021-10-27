@@ -1,0 +1,89 @@
+
+h1 {
+    color: darkblue;
+    letter-spacing: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 80%;
+    width: 80%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: auto;
+    width: 1105px;
+    height: 968px;
+    background-color: white;
+}
+
+.topbox {
+    display: flex;
+    align-items: flex-end;
+    height: 20%;
+    width: 96%;
+    background-color: white;
+    border: 4px solid black;
+    
+}
+
+.midbox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30%;
+    width: 96%;
+    background-color: white;
+    border: 4px dotted black;
+
+}
+
+.bottombox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    width: 60%;
+    background-color: white;
+    border: 2px solid lightgray;
+    box-shadow: 4px 4px 4px lightgray;
+}
+
+.vertrectangle {
+    height: 70%;
+    width: 4.5%;
+    margin-bottom: 1%;
+    margin-left: 1%;
+    margin-right: 2.25%;
+    background-color: blueviolet;
+}
+
+.horizontalrectangle {
+    height: 90%;
+    width: 40%;
+    margin-bottom: 1%;
+    margin-left: 2.25%;
+    margin-right: 2%;
+    background-color: green;
+}
+
+.circle {
+    height: 90%;
+    width: 17%;
+    margin-bottom: 1%;
+    margin-left: 2.25%;
+    border-radius: 50%;
+    background-color: lightskyblue;
+}
+
+.centerrectangle {
+    height: 70%;
+    width: 92%;
+    background-color: rgb(255, 248, 208);
+    box-shadow: 6px 6px 5px rgb(31, 31, 31);
+}
